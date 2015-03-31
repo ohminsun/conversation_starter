@@ -16,10 +16,10 @@ message = "Your mood is #{mood}.  Suggestions to say include: Where do you live?
 of people when you know they are far away from you)."
     when "awkward"
 message = "Your mood is #{mood}.  Suggestions to say include: What's your favorite color?  Are you ready for spring (or whatever 
-season it is)?  (Lighten the mood up by talking about glorious pastels)."
+season it is)?  (Lighten the mood up by talking about pastels.  And maybe Easter eggs.  That's a safe topic.  We like Cadbury)."
     when "frustrated"
     message = "Your mood is #{mood}.  Suggestions to say include: Are you hungry or thirsty?  Want me to get you anything? (Buy some time 
-        by running to the buffet or bar)."
+by running to the buffet or bar.  This is nice because you can run away temporarily)."
     when "happy"
 message = "Your mood is #{mood}.  Suggestions to say include: Do you play a sport?  Tell me about your team. (Hopefully, they are an 
     equestrian and will start talking about horses for hours, in which case you can actually participate in the conversation)."
