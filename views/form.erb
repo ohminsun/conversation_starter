@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-md-5">
+        <p>It's awkward to start a new conversation sometimes.  Do you feel like you're estranged from society?  Complete and
+            total introvert?  <strong>Conversation Starter</strong> is here to help you.<br /><br />Enter your mood in the form to deflect 
+        the conversation and appear comfortable in the worst situations.<br /><br />Press "back" in your browser to enter a new mood.</p>
+    </div>
+<form class="col-md-3" action='/' method="post">
+    <div class="form-group">
+        <label for="mood">Please enter your mood.  Choices include: angry, afraid, awkward, frustrated, happy, okay</label>
+        <input class="text" name="mood" />
+    </div>
+    <input class="btn btn-default" type="submit">
+    <div>
+        <p><%= @error %></p>
+    </div>
+</form>
+</div>
