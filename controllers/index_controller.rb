@@ -1,6 +1,6 @@
 require "sinatra"
 set :bind, '0.0.0.0'
-    
+
 get '/:mood' do 
     setup_index_view
 end
