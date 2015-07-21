@@ -12,3 +12,5 @@ gem 'rack'
 gem 'rack-test'
 
 gem 'puma'
+
+ruby "2.1.5"
