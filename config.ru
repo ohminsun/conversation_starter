@@ -4,6 +4,8 @@ require 'rake'
 
 require ::File.expand_path('../app',  __FILE__)
 
+require './index'
+
 set :app_file, __FILE__
 
 configure do
